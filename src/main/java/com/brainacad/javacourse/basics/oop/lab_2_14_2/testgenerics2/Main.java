@@ -21,7 +21,7 @@ public class Main {
         for (Double d : doubles) {
             System.out.print(d + " ");
         }
-        System.out.println("\nNumber of values greater than 3.3: " + MyTestMethod.calcEquals(doubles, 3.3));
+        System.out.println("\nNumber of values greater than 3.3: " + MyTestMethod.calcNum(doubles, 3.3));
 
     }
 
